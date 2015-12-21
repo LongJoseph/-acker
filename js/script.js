@@ -43,4 +43,4 @@ window.setInterval(function () {
     if(x == 1) s1.play();
     if(x == 2) s2.play();
     if(x == 3) s3.play();
-}, 5000);
+}, 3500);
