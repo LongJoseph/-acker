@@ -1,0 +1,112 @@
+@font-face {
+    font-family: k1;
+    src: url(../fonts/zig.ttf);
+}
+
+body {
+    font-family: monospace;
+    color: #0f0;
+    margin: 3% 4% 10%;
+    background: #000;
+    overflow: hidden;
+}
+
+#logo{
+    width: 100px;
+}
+
+.deco{
+    font-family: k1;
+    margin-top: 200px;
+    margin: 0 auto;
+    background-color: red;
+    width: 400px;
+    padding: 18px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.94);
+    border: 10px solid grey;
+    border-top: 28px solid grey;
+    position: relative;
+}
+
+.geo{
+    margin-top: -3px;
+    font-size: 60px;
+}
+
+.nav{
+    list-style: none;
+    padding-left: 0;
+    color: red;
+}
+
+.nav li {
+    margin: 5px;
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: darkgrey;
+}
+
+.nav li a:hover{
+    color: red;    
+}
+
+.nav  h2{
+    margin: 0;
+}
+
+.name{
+    display: inline;
+    position: absolute;
+    top: -35px;
+    left: 0px;
+    color: black;
+    font-size: 14px;
+}
+
+.out{
+    position: absolute;
+    color: red;
+    right: -5px;
+    font-size: 30px;
+    top: -27px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: underline;
+}
+
+#terminal {
+    white-space: pre-wrap;
+    line-height: 1.4em;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    font-family: k1;
+    overflow: hidden;
+}
+
+#caret {
+    display: inline-block;
+    height: 1.35em;
+    width: 0.7em;
+    vertical-align: middle;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+#video-background {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+}
